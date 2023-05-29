@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4"
+libloading = "0.8.0"
+widestring = "1.0.2"
+relative-path = "1.8.0"
