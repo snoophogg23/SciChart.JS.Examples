@@ -12,6 +12,7 @@ import init2dEighthChart from "./charts/2dcharts/eighth";
 import init2dNinthChart from "./charts/2dcharts/ninth";
 import { initVerticalCharts } from "./charts/VerticalCharts/initVerticalCharts";
 import { appTheme } from "./theme";
+// import app from './app';
 
 ({
     charts: {

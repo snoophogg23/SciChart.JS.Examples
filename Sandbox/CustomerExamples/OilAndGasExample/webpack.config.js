@@ -4,6 +4,11 @@ const webpack = require("webpack");
 
 module.exports = {
     mode: "production",
+    devServer: {
+        host: '0.0.0.0',
+        port: 8080,
+        disableHostCheck: true,
+    },
     entry: "./src/index.ts",
     // entry: "./src/index.ts",
     module: {
